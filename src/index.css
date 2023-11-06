@@ -1,13 +1,42 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gotham Narrow", sans-serif;
+}
+html {
+  /* changes a default 16px font size to 10px */
+  font-family: "Gotham Narrow";
+}
+
+font-face {
+  font-family: "Gotham Narrow";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Narrow"),
+    url("./fonts/GothamNarrow-Book.otf") format("opentype"),
+    url("./fonts/GothamNarrow-Black.otf") format("opentype"),
+    url("./fonts/GothamNarrow-BlackItalic.otf") format("opentype"),
+    url("./fonts/GothamNarrow-Bold.otf") format("opentype"),
+    url("./fonts/GothamNarrow-BookItalic.otf") format("opentype"),
+    url("./fonts/GothamNarrow-Light.otf") format("opentype"),
+    url("./fonts/GothamNarrow-LightItalic.otf") format("opentype"),
+    url("./fonts/GothamNarrow-Medium.otf") format("opentype"),
+    url("./fonts/GothamNarrow-MediumItalic.otf") format("opentype"),
+    url("./fonts/GothamNarrow-Thin.otf") format("opentype"),
+    url("./fonts/GothamNarrow-ThinItalic.otf") format("opentype"),
+    url("./fonts/GothamNarrow-Ultra.otf") format("opentype"),
+    url("./fonts/GothamNarrow-XLight.otf") format("opentype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Gotham Narrow", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Gotham Narrow", sans-serif;
 }
